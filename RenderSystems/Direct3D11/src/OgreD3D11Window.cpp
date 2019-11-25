@@ -126,7 +126,7 @@ namespace Ogre
         D3D11Window( title, width, height, fullscreenMode,
                      depthStencilFormat, miscParams,
                      device, renderSystem ),
-        mUseFlipMode( false ),
+        mUseFlipMode( true ), // temporary
         mPreviousPresentStatsIsValid( false ),
         mVBlankMissCount( 0 )
     {

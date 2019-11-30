@@ -1108,6 +1108,8 @@ namespace Ogre
         /// Resident -> OnStorage -> Resident transition that bypasses pending operations,
         /// and pretend the texture has been in Resident all along.
         void _setIgnoreScheduledTasks( bool ignoreSchedTasks );
+
+        bool mSkipMip;
     };
 
     /** @} */
